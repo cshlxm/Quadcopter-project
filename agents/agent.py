@@ -52,10 +52,10 @@ class Actor():
 
     
       # adding hidden layers 
-      net = layers.Dense(units=128,kernel_regularizer=layers.regularizers.l2(1e-6),activation='relu')(states)
-      net = layers.Dense(units=128,kernel_regularizer=layers.regularizers.l2(1e-6),activation='relu')(states)
-      net = layers.Dense(units=128,kernel_regularizer=layers.regularizers.l2(1e-6),activation='relu')(states)
-      net = layers.Dense(units=128,kernel_regularizer=layers.regularizers.l2(1e-6),activation='relu')(states)
+      net = layers.Dense(units=48,kernel_regularizer=layers.regularizers.l2(1e-6),activation='relu')(states)
+      net = layers.Dense(units=48,kernel_regularizer=layers.regularizers.l2(1e-6),activation='relu')(states)
+#       net = layers.Dense(units=48,kernel_regularizer=layers.regularizers.l2(1e-6),activation='relu')(states)
+#       net = layers.Dense(units=128,kernel_regularizer=layers.regularizers.l2(1e-6),activation='relu')(states)
       
     
       # output_layer
